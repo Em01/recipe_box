@@ -1,0 +1,8 @@
+= simple_form_for @recipe, html: { multipart: true } do |f|
+	- if @recipe.errors.any?
+	#errors
+		%p
+			= @recipe.errors.count
+			Prevented this recipe from saving
+		%ul
+		
