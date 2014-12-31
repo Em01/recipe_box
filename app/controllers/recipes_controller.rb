@@ -31,4 +31,4 @@ class RecipesController < ApplicationController
 		@recipe = Recipe.find(params[:id])
 	end
 end 
-end
+
